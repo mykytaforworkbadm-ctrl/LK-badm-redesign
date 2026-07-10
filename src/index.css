@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-red: #C8102E;
+  --color-brand-red-tint: #FDECEE;
+  --color-bg-app: #F4F5F7;
+  --color-bg-surface: #FFFFFF;
+  --color-border-custom: #E3E6EA;
+  
+  --color-success-custom: #0F9D58;
+  --color-success-tint: #E6F4EA;
+  
+  --color-warning-custom: #8A5A0F;
+  --color-warning-tint: #FDF3E1;
+  
+  --color-danger-custom: #D2461B;
+  --color-danger-tint: #FCE8E0;
+  
+  --color-neutral-custom: #6B7280;
+  --color-neutral-tint: #F1F2F4;
+}
+
+:root {
+  --bg-app: #F4F5F7;
+  --bg-surface: #FFFFFF;
+  --border: #E3E6EA;
+  --text-primary: #1A1D23;
+  --text-secondary: #6B7280;
+  --text-muted: #9AA1AC;
+  --brand-red: #C8102E;
+  --brand-red-tint: #FDECEE;
+  --success: #0F9D58;
+  --success-tint: #E6F4EA;
+  --warning: #8A5A0F;
+  --warning-tint: #FDF3E1;
+  --danger: #D2461B;
+  --danger-tint: #FCE8E0;
+  --neutral: #6B7280;
+  --neutral-tint: #F1F2F4;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+}
+
+/* Base resets or utility helpers */
+body {
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+}

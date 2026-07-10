@@ -1,0 +1,6 @@
+{
+  "name": "Особистий кабінет БаДМ",
+  "description": "Портал самообслуговування для B2B клієнтів (аптек) фармацевтичного дистриб'ютора БаДМ.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
